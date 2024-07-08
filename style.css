@@ -1,0 +1,149 @@
+/* Doran-ExtraBold */
+@font-face {
+    font-family: Doran-ExtraBold;
+    font-style: normal;
+    src: url(/Fonts/Doran-ExtraBold.woff) format('woff'),
+          url(/Fonts/Doran-ExtraBold.otf) format('otf'),
+          url(/Fonts/Doran-ExtraBold.ttf) format('ttf');
+}
+/* Doran-Regular */
+@font-face {
+    font-family: Doran-Regular;
+    font-style: normal;
+    src: url(/Fonts/Doran-Regular.woff) format('woff'),
+          url(/Fonts/Doran-Regular.otf) format('otf'),
+          url(/Fonts/Doran-Regular.ttf) format('ttf');
+}
+/* Doran-Light */
+@font-face {
+    font-family: Doran-Light;
+    font-style: normal;
+    src: url(/Fonts/Doran-Light.woff) format('woff'),
+          url(/Fonts/Doran-Light.otf) format('otf'),
+          url(/Fonts/Doran-Light.ttf) format('ttf');
+}
+body{
+    direction: rtl;
+}
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 0 px auto;
+    padding: 20px;
+    background-color: #1b1464;
+}
+.main{
+    position: relative;
+    margin: 140px auto;
+    /* border: 3px solid #73AD21; */
+    width: 832px;
+    height: 406px;
+    padding: 10px;
+}
+.skills{
+    position: relative;
+    margin: 300px auto;
+    /* border: 3px solid #1b1464; */
+    width: 832px;
+    height: 634px;
+}
+.project{
+    position: relative;
+    margin: 300px auto;
+    /* border: 3px solid #1b1464; */
+    width: 832px;
+    height: 634px;
+}
+.tellus{
+    position: relative;
+    margin: 300px auto;
+    /* border: 3px solid #1b1464; */
+    width: 832px;
+    height: 634px;
+}
+.skill1{
+    position: absolute;
+    margin: auto;
+    /* border: 3px solid #ff0000; */
+    width: 550px;
+    height: 50px;
+    right: 141px;
+    top: 160px;
+}
+.skill2{
+    position: absolute;
+    margin: 80px auto;
+    /* border: 3px solid #ff0000; */
+    width: 550px;
+    height: 50px;
+    right: 141px;
+    top: 160px;
+}
+.skill3{
+    position: absolute;
+    margin: 160px auto;
+    /* border: 3px solid #ff0000; */
+    width: 550px;
+    height: 50px;
+    right: 141px;
+    top: 160px;
+}
+.skill4{
+    position: absolute;
+    margin: 240px auto;
+    /* border: 3px solid #ff0000; */
+    width: 550px;
+    height: 50px;
+    right: 141px;
+    top: 160px;
+}
+.skill5{
+    position: absolute;
+    margin: 320px auto;
+    /* border: 3px solid #ff0000; */
+    width: 550px;
+    height: 50px;
+    right: 141px;
+    top: 160px;
+}
+.star{
+    position: absolute;
+    top: 7px;
+    width: 35px;
+}
+.person{
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.text1{
+    position: absolute;
+    font-family: Doran-Regular;
+    font-size: 72px;
+    right: 390px;
+    top: 95px;
+}
+.logo1{
+    width: 150px;
+    position: absolute;
+    right: 497px;
+    top: 190px;
+}
+.bio{
+    font-family: Doran-Light;
+    font-size: 39.5px;
+    position: absolute;
+    right: 392px;
+    top: 241px;
+}
+.footer{
+    position: relative;
+    /* margin: auto; */
+    padding: 15px;
+    background-color: #1b1464;
+}
+p{
+    font-family: Doran-ExtraBold;
+    font-size: 30px;
+}
